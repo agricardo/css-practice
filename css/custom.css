@@ -1,0 +1,63 @@
+.logo{
+    color: red;
+}
+.nav a{
+    color: green;
+}
+.nav a:visited{
+color: #444;
+}
+.above-the-fold p{
+    color: white;
+}
+.above-the-fold button{
+    background-color: rgb(142, 255, 66);
+    color: firebrick
+}
+article p::first-letter{
+    margin-left: 30px; 
+}
+.blog{
+    background-color: #666;
+color: #cff;
+}
+.gallery figure{
+box-shadow:5px 10px 4px #888;
+}
+.gallery figcaption{
+    padding: 8px;
+}
+.article{
+    margin-top: 40px auto 0 auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.article-title{
+text-align: center
+}
+section h2{
+text-transform: uppercase
+}
+.form-imput{
+    display: block;
+    margin: 36px;
+}
+
+footer{
+    background-color: rgb(252, 166, 90);
+    color: #555
+}
+.form-imput:focus{
+
+}
+section h2::before{
+    content: ">";
+}
+input[name="gender"]{
+
+}
+
+
+
